@@ -42,7 +42,7 @@ function projectClick(e) {
     var description = $(containingProject).find(".project-description");
     
     if (description.length == 0) { 
-       $(containingProject).append("<div class='project-description' align=center'><p style='text-align: center;' align=''center'>Description of the project.</p></div>"); 
+       $(containingProject).append("<div class='project-description' ><p style='text-align: center;' align=''center'>Description of the project.</p></div>"); 
     } else { 
        $(".project-description").fadeOut();
        if(descriptionHidden == 1){
